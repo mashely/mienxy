@@ -2,6 +2,8 @@
 @extends('main')
 
 @section('content')
+
+
   <!--================ Home Banner Area =================-->
   <section class="home_banner_area banner-area">
     <div class="banner_inner d-flex align-items-center">

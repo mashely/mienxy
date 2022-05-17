@@ -86,7 +86,7 @@
             <div class="row w-100">
               <div class="col-lg-12 pr-lg-0">
                 <ul class="nav navbar-nav ml-auto justify-content-end">
-                  <li class="nav-item active">
+                  <li class="nav-item ">
                     <a class="nav-link" href="/home">Home</a>
                   </li>
                   <li class="nav-item ">
@@ -113,7 +113,7 @@
                       aria-expanded="false">Blog</a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link" href="/blog">Blog</a>
                       </li>
                       {{-- <li class="nav-item">
                         <a class="nav-link" href="blog-details.html">Blog Details</a>
@@ -133,9 +133,23 @@
   </header>
   <!--================Header Menu Area =================-->
 
+
+
+
+
+
+
   @yield('content')
 
   
+
+
+
+
+
+
+
+
   <!--================ Start CTA Area ================-->
   <section class="cta_area">
     <div class="container">
