@@ -61,7 +61,10 @@
           }
 
         </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDfqYxg6t0slt-NPCMBEdYvryf57xDrbg&callback=initMap"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap"></script>
+     
+        {{-- AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I      //ORIGINAL APIKEY FROM GOOGLE TEMPLATE
+        AIzaSyBDfqYxg6t0slt-NPCMBEdYvryf57xDrbg           //API KEYS FROM MY GOOGLE MAP PLATFORM  --}}   
 
       </div>
 
