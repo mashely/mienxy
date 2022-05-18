@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\estimatedPriceController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,3 +37,6 @@ Route::get('/services', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+
+Route::post('/getEstimatedPrice', [estimatedPriceController::class,'store']);
+
